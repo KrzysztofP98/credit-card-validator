@@ -48,12 +48,16 @@ The validation process involves:
 
 Here are a few card numbers to test the script with:
 
-Card Type	Card Number	Validity
-Visa	4388576018410707	Valid
-Mastercard	5500000000000004	Valid
-American Express	371449635398431	Valid
-Discover	6011111111111117	Valid
-Invalid Number	4388576018402626	Invalid
+
+Visa:	4388576018410707	
+
+Mastercard:	5500000000000004	
+
+American Express: 371449635398431	
+
+Discover: 	6011111111111117	
+
+Invalid Number: 	4388576018402626	
 
 ### Contributions
 Krzysztof Piotrowski
