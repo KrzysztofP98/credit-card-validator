@@ -32,6 +32,29 @@ The validation process involves:
 2. Open a terminal/command prompt and navigate to the directory containing the script.
 3. Run the script by providing a credit card number as input.
 
+### Output
+
+    For valid cards, it will return:
+        "valid (Visa)", "valid (Mastercard)", "valid (American Express)", or "valid (Discover)" depending on the card type.
+    For invalid cards, it will return:
+        "invalid"
+
+### Code Breakdown
+
+    validate_number(number): This function accepts a credit card number as input, processes it using Luhn's Algorithm, and returns whether the card is valid and what type it is.
+    if __name__ == '__main__':: This block allows you to test the script by running it directly. Two sample card numbers are tested: one valid and one invalid.
+
+### Example Credit Card Numbers for Testing
+
+Here are a few card numbers to test the script with:
+
+Card Type	Card Number	Validity
+Visa	4388576018410707	Valid
+Mastercard	5500000000000004	Valid
+American Express	371449635398431	Valid
+Discover	6011111111111117	Valid
+Invalid Number	4388576018402626	Invalid
+
 ### Contributions
 Krzysztof Piotrowski
 
