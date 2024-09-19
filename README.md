@@ -32,7 +32,12 @@ The validation process involves:
 2. Open a terminal/command prompt and navigate to the directory containing the script.
 3. Run the script by providing a credit card number as input.
 
-#### Example:
+### Contributions
+Krzysztof Piotrowski
 
-```bash
-python validate_card.py
+### Licence 
+This project under the MIT licence. See the LICENCE for details. 
+
+### Contact 
+For any questions or issues, please contact krzysztof.piotrowski.in@gmail.com
+
